@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """returns a pascal triangle"""
-
+import os
+import sys
 
 def pascal_triangle(n):
     """
@@ -29,4 +30,3 @@ def pascal_triangle(n):
             in_pas.append(num)
         pascal.append(in_pas)
     return pascal
-    
