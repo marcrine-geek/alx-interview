@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """returns a pascal triangle"""
-import os
-import sys
+
 
 def pascal_triangle(n):
     """
